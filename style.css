@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata|Lato:300,400,700');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.imgh {
+     background-image: url("https://www.grammy.com/sites/com/files/styles/image_landscape_hero/public/muzooka/Nirvana/Nirvana_16_9_1603883067.jpg?itok=Zwq17RQ8");
+     background-size: cover;
+     height: 670px;
+}
+
+.img1{
+   text-align: center;
+   text-transform: uppercase;
+   padding-top: 80px;
+   font-size: 30pt;
+   color: orange;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.over{
+  background-color: rgba(0, 0, 0, 0.603);
+  background-size: cover;
+  height: 670px;
+}
+
+#detalii{
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 4px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  line-height: 30px !important;
+  font-size: 30px;
+  padding: 10px 15px;
+  background: transparent;
+  transition: 0.5s;
+}
+#detalii:hover{
+  background-color: white;
+  color: black;
+}
+
+#ds{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(252, 174, 7);
+    margin-top: 15px;
+    font-size: xx-large;
+    letter-spacing: 0.5cm; 
+    margin-bottom: 0.3cm;  
+}
+
+#hr1{
+        border: none;
+        height: 4px;
+        top: 0.3cm;
+        background: rgb(255, 153, 0);
+        margin-bottom: 50px;
+        width: 190px;
+        margin: 0 auto;
+}
+
+div > .imgg1{
+  margin: 4px;
+  width: 295px;
+  height: 295px;
+  float: left;
+  padding: auto;
+}
+
+#discografie{
+  background-color: black;
+}
+
+#about{
+  background-image: url("https://i.imgur.com/axvgGSN.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center;
+}
+
+#info{
+  color: orange;
+  text-transform: uppercase;
+  letter-spacing: 0.5cm;
+  font-size: xx-large;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#despre{
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-right: 100px;
+  font-size: 15px;
+  text-align: left;
+  color: #bfbfbf;
+  padding-bottom: 40px;
+}
+
+li{
+  padding-bottom: 15px;
+}
+
+body {
+  background-color: black;
+  color: #eee;
+  font-family: 'Lato', sans-serif;
+  font-size: 70%;
+  box-sizing: border-box;
+}
+
+.links > img {
+    padding: auto;
+    height: 30px;
+    width: auto;
+    margin-left: 75px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.links {  
+  background-color: rgb(17, 18, 19);
+  background-image: linear-gradient(to bottom, #0003, transparent);
+  border-bottom: 1px solid #0003;
+  box-shadow: 0 0 32px rgba(54, 0, 75, 0.2);
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.links > a {
+  color: rgb(255, 255, 255);
+  padding: .75em;
+  text-align: center;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.links > a:hover {
+  background: #ffffff06;
+  color: #adf;
+  font-size: 17pt;
+  font-weight: bold;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.links {
+  display: grid;
+  grid-template-columns: repeat(var(--items), 1fr);
+  position: relative;
+}
+
+#contact{
+  text-transform: uppercase;
+}
+
+section{
+  color: #222222;
+}
+
+
+
+.titlumail{
+  text-align: center;
+  color: orange;
+  padding-top: 25px;
+  font-size: xx-large;
+}
+
+#hrmail{
+    border: none;
+    height: 4px;
+    top: 0.3cm;
+    background: rgb(255, 153, 0);
+    margin-bottom: 50px;
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .subtitle{
+    color: whitesmoke;
+    text-align: center;
+    font-family: inherit;
+    font-size: inherit;
+    text-transform: uppercase;
+    line-height: 20px;
+    margin-top: 40px;
+  }
+
+  #hrsubtitle{
+    border: none;
+    height: 2px;
+    top: 0.3cm;
+    background-color: #9ab;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  #input1{
+    display: inline-block;
+    background-color: #666666 !important;
+    color: #dddddd;
+    height: 34px;
+    padding: 0 8px;
+    background: white;
+    border: 1px solid #d9d9d9; 
+    width: 55%;
+    border-radius: 2px;
+  }
+
+  .mail{
+    margin-left: 460px;
+  }
+
+  #input2{
+    font-size: 0.9em;
+    width: 9%;
+    padding: 0 8px;
+    background-color: #666666 !important;
+    border: 1px solid #d9d9d9; 
+    border-radius: 2px;
+    color: #dddddd;
+    height: 34px;
+  }
+
+  .bith{
+    margin-left: 460px;
+    margin-top: 10px;
+  }
+
+  #input3{
+    display: inline-block;
+    background-color: #666666 !important;
+    color: #dddddd;
+    height: 34px;
+    padding: 0 8px;
+    background: white;
+    border: 1px solid #d9d9d9; 
+    width: 55%;
+    border-radius: 2px;
+  }
+
+  .postal{
+     margin-left: 460px;
+     margin-top: 10px;
+  }
+
+  #select1{
+    display: inline-block;
+    background-color: #666666 !important;
+    color: #dddddd;
+    height: 34px;
+    padding: 0 8px;
+    border: 1px solid #d9d9d9; 
+    width: 56.8%;
+    border-radius: 2px;
+    text-transform: uppercase;
+  }
+
+  .tara{
+     margin-left: 460px;
+     margin-top: 10px;
+  }
+
+  #input4{
+    border: 1px solid #3079ed;
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    font-size: 16px;
+    padding: 0.8125em 1.625em;
+    font-family: inherit;
+    width: 56.8%;
+    text-transform: uppercase;
+    color: white;
+    line-height: 14px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .inregistrare{
+    margin-left: 460px;
+     margin-top: 20px;
+  }
+
+  ul.icon{
+    list-style-type: none;
+    text-align: center;
+    background: transparent;
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+  }
+
+  footer{
+    background-color: #1f1d1d;
+  }
+
+  #hoverimg:hover{
+    background-color: rebeccapurple;
+  }
+
+  footer{
+    background: #0b161a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
